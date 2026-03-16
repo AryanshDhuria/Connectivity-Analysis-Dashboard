@@ -1,0 +1,4 @@
+MetricID,MetricName,MetricType,Unit
+1,Internet,Connectivity,Subscribers
+2,Mobile,Connectivity,Subscribers
+3,Telephone,Connectivity,Landlines
