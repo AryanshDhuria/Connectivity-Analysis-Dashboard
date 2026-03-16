@@ -82,14 +82,6 @@ Connectivity-Analysis-Dashboard
 * 🌐 Internet connectivity is gradually increasing.
 
 ---
-
-## 📐 Example DAX Calculation
-
-```
-Connectivity Rate =
-DIVIDE([Total Subscriber], [Total Population]) * 100
-```
-
 ---
 
 ## ⚙️ Dashboard Features
@@ -112,11 +104,8 @@ DIVIDE([Total Subscriber], [Total Population]) * 100
 
 ## 👨‍💻 Author
 
-**Karan Dhuria**
-Aspiring Data Analyst
+**Aryansh Dhuria**
 
-🔗 LinkedIn: Add your LinkedIn profile
-🔗 GitHub: https://github.com/
 
 ---
 
