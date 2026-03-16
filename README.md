@@ -1,44 +1,46 @@
-
 # 📊 Connectivity Analysis Dashboard
 
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi\&logoColor=black)
 ![Data Analytics](https://img.shields.io/badge/Domain-Data%20Analytics-blue)
 ![Dataset](https://img.shields.io/badge/Data-CSV-green)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![Visualization](https://img.shields.io/badge/Visualization-Dashboard-orange)
+![Project Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
 ---
 
 ## 📌 Project Overview
 
-The **Connectivity Analysis Dashboard** is an interactive **Power BI project** designed to analyze telecommunication connectivity trends across different regions and years.
+The **Connectivity Analysis Dashboard** is a Power BI project created to analyze **telecommunication connectivity trends across regions and years**.
 
-The dashboard explores **population growth, telecom subscriber distribution, and connectivity penetration**, enabling users to understand regional connectivity patterns and telecom adoption trends.
+The dashboard provides insights into **population growth, telecom subscriber distribution, and connectivity penetration**, enabling users to explore telecom adoption patterns across different regions.
 
-This project demonstrates **data modeling, dashboard design, and business insight generation using Power BI**.
+This project demonstrates **data modeling, dashboard design, and data analysis using Power BI and DAX**.
 
 ---
 
 ## 🖼 Dashboard Preview
 
-![Dashboard](Report.png)
+![Connectivity Dashboard](Report.png)
 
 ---
 
-## 🎯 Objectives
+## 🎯 Project Objectives
 
-* Analyze **telecom connectivity trends**
-* Compare **population vs subscriber growth**
-* Identify **regions with high and low connectivity**
-* Create **interactive visualizations for decision-making**
+• Analyze telecom **connectivity trends over time**
+• Compare **population vs subscriber growth**
+• Identify **regions with high and low telecom penetration**
+• Create **interactive visualizations for data exploration**
 
 ---
 
 ## 🛠 Tools & Technologies
 
-* **Power BI** – Dashboard development
-* **DAX** – Calculations and measures
-* **CSV Files** – Dataset storage
-* **Data Modeling** – Relationship creation
+| Tool          | Purpose                   |
+| ------------- | ------------------------- |
+| Power BI      | Dashboard Development     |
+| DAX           | Measures and Calculations |
+| CSV           | Dataset Storage           |
+| Data Modeling | Relationship Creation     |
 
 ---
 
@@ -60,7 +62,7 @@ Connectivity-Analysis-Dashboard
 
 ---
 
-## 📊 Dashboard Metrics
+## 📊 Key Dashboard Metrics
 
 | Metric                | Value  |
 | --------------------- | ------ |
@@ -75,30 +77,64 @@ Connectivity-Analysis-Dashboard
 
 ## 📈 Key Insights
 
-* 📌 Telecom subscribers have **steadily increased over time**.
-* 🌍 **North region shows the highest subscriber count**, indicating strong telecom adoption.
-* ⚠️ **Northeast region has comparatively lower connectivity penetration**.
-* 📱 Mobile subscriptions dominate over traditional telephone connections.
-* 🌐 Internet connectivity is gradually increasing.
+📌 Telecom subscriber growth has **steadily increased over time**.
+
+🌍 **North region has the highest subscriber count**, indicating strong telecom infrastructure.
+
+⚠️ **Northeast region shows lower connectivity penetration** compared to other regions.
+
+📱 Mobile subscribers dominate over traditional telephone connections.
+
+🌐 Internet connectivity adoption is gradually increasing.
 
 ---
+
+## 📐 Example DAX Calculation
+
+```
+Connectivity Rate =
+DIVIDE([Total Subscriber], [Total Population]) * 100
+```
+
 ---
 
 ## ⚙️ Dashboard Features
 
-* KPI Cards for quick metrics overview
-* Gauge chart for connectivity rate
-* Trend analysis using line charts
-* Regional subscriber comparison
-* Interactive filters for **Region, State, and Year**
+• KPI cards for quick metrics overview
+• Connectivity rate gauge visualization
+• Trend analysis using line charts
+• Regional comparison using bar charts
+• Interactive filters for **Region, State, and Year**
 
 ---
 
 ## 🚀 How to Use
 
 1. Download the **Power BI (.pbix) file**
-2. Open it in **Microsoft Power BI Desktop**
-3. Interact with the filters and visuals to explore insights
+2. Open it using **Microsoft Power BI Desktop**
+3. Interact with filters and explore insights
+
+---
+
+## 📊 Dataset
+
+The dataset used in this project is available in the **dataset folder** and follows a **star schema structure** consisting of:
+
+• Connectivity Fact Table
+• Date Dimension Table
+• Geography Dimension Table
+• Metric Dimension Table
+
+---
+
+## 🧠 Skills Demonstrated
+
+• Data Cleaning
+• Data Modeling
+• Power BI Dashboard Development
+• DAX Calculations
+• Data Visualization
+• Business Insight Generation
 
 ---
 
@@ -107,6 +143,8 @@ Connectivity-Analysis-Dashboard
 **Aryansh Dhuria**
 
 
+GitHub: https://github.com/AryanshDhuria
+
 ---
 
-⭐ If you found this project helpful, please consider **starring the repository**.
+⭐ If you found this project useful, please consider **starring the repository**.
